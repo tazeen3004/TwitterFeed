@@ -15,6 +15,7 @@
 		2F37BA0B1E58963B0000B772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F37BA091E58963B0000B772 /* LaunchScreen.storyboard */; };
 		2F37BA161E58963C0000B772 /* TwitterFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F37BA151E58963C0000B772 /* TwitterFeedTests.swift */; };
 		2F37BA211E58963C0000B772 /* TwitterFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F37BA201E58963C0000B772 /* TwitterFeedUITests.swift */; };
+		2F9AC81B1E58D6D2001C4EDE /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9AC81A1E58D6D2001C4EDE /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2F37BA1C1E58963C0000B772 /* TwitterFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F37BA201E58963C0000B772 /* TwitterFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterFeedUITests.swift; sourceTree = "<group>"; };
 		2F37BA221E58963C0000B772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F9AC81A1E58D6D2001C4EDE /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		2F37B9F11E58963B0000B772 = {
 			isa = PBXGroup;
 			children = (
+				2F9AC81A1E58D6D2001C4EDE /* MyTableViewCell.swift */,
 				2F37B9FC1E58963B0000B772 /* TwitterFeed */,
 				2F37BA141E58963C0000B772 /* TwitterFeedTests */,
 				2F37BA1F1E58963C0000B772 /* TwitterFeedUITests */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F37BA001E58963B0000B772 /* ViewController.swift in Sources */,
+				2F9AC81B1E58D6D2001C4EDE /* MyTableViewCell.swift in Sources */,
 				2F37B9FE1E58963B0000B772 /* AppDelegate.swift in Sources */,
 				2F37BA061E58963B0000B772 /* TwitterFeed.xcdatamodeld in Sources */,
 			);
@@ -509,6 +513,7 @@
 				2F37BA271E58963C0000B772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F37BA281E58963C0000B772 /* Build configuration list for PBXNativeTarget "TwitterFeedTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +522,7 @@
 				2F37BA2A1E58963C0000B772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F37BA2B1E58963C0000B772 /* Build configuration list for PBXNativeTarget "TwitterFeedUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +531,7 @@
 				2F37BA2D1E58963C0000B772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
